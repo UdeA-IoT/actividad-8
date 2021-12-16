@@ -1,0 +1,56 @@
+[
+    {
+        "id": "cf13f7dc042a007e",
+        "type": "tab",
+        "label": "simple-get-flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7c39e746d5f06a4c",
+        "type": "http in",
+        "z": "cf13f7dc042a007e",
+        "name": "",
+        "url": "/hello",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 240,
+        "wires": [
+            [
+                "b7b91356c55b6c1e"
+            ]
+        ]
+    },
+    {
+        "id": "b7b91356c55b6c1e",
+        "type": "template",
+        "z": "cf13f7dc042a007e",
+        "name": "page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n    <head></head>\n    <body>\n        <h1>Hello World!</h1>\n    </body>\n</html>",
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "f01c0d86e9fd369d"
+            ]
+        ]
+    },
+    {
+        "id": "f01c0d86e9fd369d",
+        "type": "http response",
+        "z": "cf13f7dc042a007e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 510,
+        "y": 240,
+        "wires": []
+    }
+]
