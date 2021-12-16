@@ -1,4 +1,13 @@
-# actividad-8
+# Actividad 8
+
+* **Fecha**: 16/12/2021
+
+**Nota**: Actualmente la documentación de este repositorio se encuentra en construcción. Ofrecemos disculpas por las molestias ocasionadas.
+
+## Para empezar
+
+Ir al siguiente enlace: https://github.com/UdeA-IoT/herramientas/tree/main/node-red
+
 
 ## Ejemplo 1
 
@@ -17,12 +26,12 @@
 
 ## Ejemplo 2
 
-### Pruebas postman
+### Pruebas postman (parte 1 del ejemplo)
 
 1. **Prueba 1**: http://127.0.0.1:1880/input?sensor=1024&switch=0&name=NodeMCU-001
 2. **Prueba 2**: http://127.0.0.1:1880/input?sensor=520&switch=1&name=NodeMCU-002
 
-
+### Pruebas nodeMCU (parte 2 del ejemplo)
 
 * https://reqbin.com/req/nfilsyk5/get-request-example
 * https://www.w3schools.com/tags/ref_httpmethods.asp
@@ -40,6 +49,8 @@
 ## Ejemplo 3
 
 * **Proxima sección del curso**: https://randomnerdtutorials.com/esp8266-and-node-red-with-mqtt/
+
+
 
 <!---
 
